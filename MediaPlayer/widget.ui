@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>Widget</class>
  <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>265</height>
+   </rect>
+  </property>
   <property name="minimumSize">
    <size>
     <width>690</width>
@@ -25,7 +33,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>20</y>
+     <y>10</y>
      <width>731</width>
      <height>16</height>
     </rect>
@@ -44,7 +52,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Prev</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTPlay">
@@ -57,7 +65,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Play</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTPause">
@@ -70,7 +78,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Pause</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTStop">
@@ -83,7 +91,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Stop</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTNext">
@@ -96,7 +104,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Next</string>
+    <string/>
    </property>
   </widget>
   <widget class="QPushButton" name="BTOpen">
@@ -104,7 +112,7 @@
     <rect>
      <x>10</x>
      <y>230</y>
-     <width>80</width>
+     <width>81</width>
      <height>21</height>
     </rect>
    </property>
@@ -148,14 +156,14 @@
     </rect>
    </property>
    <property name="text">
-    <string>Progress</string>
+    <string>Progress:</string>
    </property>
   </widget>
   <widget class="QLabel" name="volume">
    <property name="geometry">
     <rect>
      <x>490</x>
-     <y>30</y>
+     <y>20</y>
      <width>490</width>
      <height>30</height>
     </rect>
@@ -173,20 +181,20 @@
     </size>
    </property>
    <property name="text">
-    <string>Volume</string>
+    <string>Volume:</string>
    </property>
   </widget>
   <widget class="QLabel" name="LBdur">
    <property name="geometry">
     <rect>
-     <x>580</x>
+     <x>460</x>
      <y>100</y>
-     <width>51</width>
-     <height>16</height>
+     <width>221</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>Duration</string>
+    <string>Duration:</string>
    </property>
   </widget>
   <widget class="QLabel" name="LBLFile">
@@ -194,12 +202,12 @@
     <rect>
      <x>20</x>
      <y>170</y>
-     <width>81</width>
+     <width>661</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>File</string>
+    <string>File:</string>
    </property>
   </widget>
  </widget>

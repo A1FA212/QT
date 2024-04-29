@@ -19,6 +19,10 @@ public:
 private slots:
     void on_BTOpen_clicked();
 
+    void on_SLvolume_valueChanged(int value);
+
+    void on_durationChanged(qint64 duration);
+
 private:
     Ui::Widget *ui;
     QMediaPlayer* m_player;
