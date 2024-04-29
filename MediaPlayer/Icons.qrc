@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>ICO/bell.ico</file>
+        <file>ICO/management_settings.ico</file>
+    </qresource>
+</RCC>
