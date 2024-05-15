@@ -215,7 +215,7 @@
     <rect>
      <x>110</x>
      <y>470</y>
-     <width>61</width>
+     <width>41</width>
      <height>21</height>
     </rect>
    </property>
@@ -231,6 +231,71 @@
      <width>581</width>
      <height>192</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTOpen_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>470</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTOpen_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>470</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DEL</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTOpen_4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>470</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CLR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTOpen_5">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>470</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Loop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BTOpen_6">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>470</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SHUFFLE</string>
    </property>
   </widget>
  </widget>

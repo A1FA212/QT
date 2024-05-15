@@ -4,6 +4,9 @@
 #include <QWidget>
 #include <QMediaPlayer>
 #include <QFileDialog>
+#include <QMediaPlaylist>
+#include <QStandardItemModel>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
@@ -23,8 +26,17 @@ private slots:
 
     void on_durationChanged(qint64 duration);
 
+    void on_PBMute_clicked();
+    void on_positionChanged(qint64 position);
+
+    void on_SLprogress_valueChanged(int value);
+
+    void on_current_index_changed(int position);
+
 private:
     Ui::Widget *ui;
     QMediaPlayer* m_player;
+    QMediaPlaylist* m_playlist;
+    QStandardItemModel* m_playlistModel;
 };
 #endif // WIDGET_H
